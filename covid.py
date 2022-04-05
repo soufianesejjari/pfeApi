@@ -38,6 +38,3 @@ def predict():
         print ('Train the model first')
         return ('No model here to use')
 
-if __name__ == "__main__":
-    from waitress import serve
-    serve(app, host="localhost", port=5001)
